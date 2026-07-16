@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Bestmaa gaming and product builder</title>
+  <title id="title">Aditya Nandlal gaming and product builder</title>
   <desc id="desc">Animated cartoon developer at a gaming desk surrounded by code, 2D sprites, a 3D cube, and product cards.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -46,7 +46,7 @@
 
   <g transform="translate(62 72)">
     <text x="0" y="34" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4">PLAYER ONE // BUILDER MODE</text>
-    <text x="0" y="104" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="2">BESTMAA</text>
+    <text x="0" y="104" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="900" letter-spacing="1">ADITYA NANDLAL</text>
     <rect x="2" y="126" width="438" height="4" rx="2" fill="url(#neon)" filter="url(#glow)">
       <animate attributeName="width" values="110;438;110" dur="5s" repeatCount="indefinite"/>
     </rect>
