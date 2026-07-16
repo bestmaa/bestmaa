@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Aditya Nandlal gaming developer avatar</title>
+  <desc id="desc">A neon cartoon avatar wearing headphones and holding a game controller.</desc>
+  <defs>
+    <linearGradient id="avatar-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071126"/>
+      <stop offset="0.55" stop-color="#14133a"/>
+      <stop offset="1" stop-color="#321252"/>
+    </linearGradient>
+    <linearGradient id="avatar-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="avatar-hoodie" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <pattern id="avatar-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="avatar-glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="avatar-crop"><circle cx="256" cy="256" r="246"/></clipPath>
+  </defs>
+
+  <circle cx="256" cy="256" r="252" fill="#050816"/>
+  <circle cx="256" cy="256" r="246" fill="url(#avatar-bg)"/>
+  <g clip-path="url(#avatar-crop)">
+    <rect width="512" height="512" fill="url(#avatar-grid)"/>
+    <circle cx="88" cy="108" r="82" fill="#0284c7" opacity=".14"/>
+    <circle cx="430" cy="390" r="116" fill="#7c3aed" opacity=".2"/>
+
+    <!-- Floating game symbols -->
+    <g filter="url(#avatar-glow)">
+      <path d="M74 153h56M102 125v56" stroke="#38bdf8" stroke-width="13" stroke-linecap="round"/>
+      <circle cx="405" cy="143" r="10" fill="#f472b6"/>
+      <circle cx="438" cy="176" r="10" fill="#818cf8"/>
+      <path d="M394 82l28-16 28 16-28 16z" fill="#a5b4fc"/>
+      <path d="M394 82l28 16v32l-28-16z" fill="#4338ca"/>
+      <path d="M450 82l-28 16v32l28-16z" fill="#7c3aed"/>
+    </g>
+
+    <!-- Hoodie and shoulders -->
+    <path d="M93 512c8-112 65-174 163-174s155 62 163 174z" fill="url(#avatar-hoodie)"/>
+    <path d="M184 354l72 74 72-74" fill="none" stroke="#c4b5fd" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Head and hair -->
+    <circle cx="256" cy="227" r="105" fill="#f2b88d"/>
+    <path d="M153 224c-10-99 45-145 110-142 72 3 117 57 99 136-29-20-41-59-38-89-42 45-99 61-171 56z" fill="#17132e"/>
+    <path d="M166 205c-35 8-34 59 2 70M346 205c35 8 34 59-2 70" fill="none" stroke="#f2b88d" stroke-width="24" stroke-linecap="round"/>
+
+    <!-- Headphones -->
+    <path d="M158 179c14-67 55-95 98-95 47 0 88 30 101 96" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round"/>
+    <path d="M151 202c-22 8-31 29-31 55v30c0 22 17 39 39 39h11V202zM361 202c22 8 31 29 31 55v30c0 22-17 39-39 39h-11V202z" fill="#0f172a" stroke="#38bdf8" stroke-width="8"/>
+
+    <!-- Face -->
+    <path d="M207 231h28M277 231h28" stroke="#1e293b" stroke-width="10" stroke-linecap="round"/>
+    <path d="M231 276c17 14 34 14 51 0" fill="none" stroke="#9f5e4b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M256 234v27" stroke="#c87e5e" stroke-width="6" stroke-linecap="round" opacity=".65"/>
+
+    <!-- Controller -->
+    <path d="M151 431c58-33 152-33 210 0l26 73c8 24-24 43-43 25l-38-34H206l-38 34c-19 18-51-1-43-25z" fill="#0b1224" stroke="#94a3b8" stroke-width="8"/>
+    <path d="M177 467h52M203 441v52" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="316" cy="457" r="12" fill="#f472b6"/>
+    <circle cx="349" cy="486" r="12" fill="#818cf8"/>
+    <circle cx="274" cy="478" r="10" fill="#475569"/>
+  </g>
+
+  <circle cx="256" cy="256" r="246" fill="none" stroke="url(#avatar-ring)" stroke-width="12"/>
+</svg>
