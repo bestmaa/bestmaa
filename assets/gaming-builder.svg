@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Bestmaa gaming and product builder</title>
+  <desc id="desc">Animated cartoon developer at a gaming desk surrounded by code, 2D sprites, a 3D cube, and product cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b1a"/>
+      <stop offset="0.52" stop-color="#11183a"/>
+      <stop offset="1" stop-color="#220f3f"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.48" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#15275c"/>
+      <stop offset="1" stop-color="#071126"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#64748b" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+  <circle cx="1030" cy="78" r="135" fill="#7c3aed" opacity=".19" filter="url(#soft)"/>
+  <circle cx="165" cy="375" r="150" fill="#0284c7" opacity=".16" filter="url(#soft)"/>
+
+  <g fill="#fff" filter="url(#glow)">
+    <circle cx="80" cy="86" r="2" opacity=".75"><animate attributeName="cy" values="86;68;86" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1115" cy="202" r="2.5" opacity=".8"><animate attributeName="cy" values="202;182;202" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1028" cy="356" r="2" opacity=".7"><animate attributeName="cx" values="1028;1048;1028" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="408" cy="58" r="2" opacity=".75"><animate attributeName="cy" values="58;45;58" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(62 72)">
+    <text x="0" y="34" fill="#94a3b8" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4">PLAYER ONE // BUILDER MODE</text>
+    <text x="0" y="104" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="2">BESTMAA</text>
+    <rect x="2" y="126" width="438" height="4" rx="2" fill="url(#neon)" filter="url(#glow)">
+      <animate attributeName="width" values="110;438;110" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="0" y="173" fill="#cbd5e1" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">TOOLS · GAMES · PRODUCTS · SYSTEMS</text>
+
+    <g transform="translate(0 215)">
+      <rect width="128" height="44" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-opacity=".65"/>
+      <circle cx="24" cy="22" r="7" fill="#38bdf8"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="42" y="28" fill="#e2e8f0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">2D ENGINE</text>
+    </g>
+    <g transform="translate(143 215)">
+      <rect width="128" height="44" rx="12" fill="#0f172a" stroke="#818cf8" stroke-opacity=".65"/>
+      <path d="M18 16l7-4 7 4v8l-7 4-7-4z" fill="none" stroke="#a5b4fc" stroke-width="2"/>
+      <text x="42" y="28" fill="#e2e8f0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">3D TOOLS</text>
+    </g>
+    <g transform="translate(286 215)">
+      <rect width="128" height="44" rx="12" fill="#0f172a" stroke="#f472b6" stroke-opacity=".65"/>
+      <path d="M18 22h14M25 15v14" stroke="#f9a8d4" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="42" y="28" fill="#e2e8f0" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PRODUCTS</text>
+    </g>
+  </g>
+
+  <!-- Floating isometric game cube -->
+  <g transform="translate(590 87)" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="translate" values="590 87;590 73;590 87" dur="3.8s" repeatCount="indefinite"/>
+    <path d="M0 25L43 0l43 25-43 25z" fill="#a5b4fc"/>
+    <path d="M0 25l43 25v49L0 74z" fill="#4338ca"/>
+    <path d="M86 25L43 50v49l43-25z" fill="#7c3aed"/>
+    <path d="M43 50v49M0 25l43 25 43-25" fill="none" stroke="#e0e7ff" stroke-opacity=".65"/>
+  </g>
+
+  <!-- Cartoon gaming developer -->
+  <g transform="translate(670 38)">
+    <ellipse cx="265" cy="346" rx="238" ry="22" fill="#020617" opacity=".55"/>
+
+    <!-- chair -->
+    <path d="M153 192c0-25 20-45 45-45h34c25 0 45 20 45 45v128H153z" fill="#111827" stroke="#475569" stroke-width="4"/>
+    <path d="M175 314h79l18 37H157z" fill="#0f172a"/>
+
+    <!-- monitor behind the character -->
+    <rect x="46" y="72" width="342" height="230" rx="18" fill="#0f172a" stroke="#64748b" stroke-width="4"/>
+    <rect x="58" y="84" width="318" height="194" rx="12" fill="url(#screen)"/>
+    <g opacity=".9">
+      <path d="M78 112h78M78 137h112M92 162h82M78 187h105M92 212h72M78 237h115" stroke-linecap="round" stroke-width="7">
+        <animate attributeName="stroke" values="#38bdf8;#a78bfa;#f472b6;#38bdf8" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M285 112h62M300 137h47M286 162h61M302 187h45M286 212h61M299 237h48" stroke="#64748b" stroke-width="7" stroke-linecap="round" opacity=".6"/>
+      <rect x="64" y="88" width="18" height="186" fill="#38bdf8" opacity=".08">
+        <animate attributeName="x" values="64;350;64" dur="5.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <rect x="203" y="302" width="28" height="18" fill="#475569"/>
+    <rect x="173" y="316" width="88" height="9" rx="4" fill="#475569"/>
+
+    <!-- character -->
+    <path d="M165 190c20-25 91-25 113 0l16 125H146z" fill="url(#hoodie)"/>
+    <path d="M186 204l17 25 19-25" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="217" cy="127" r="48" fill="#f2b88d"/>
+    <path d="M172 129c-5-44 20-67 49-66 33 1 53 25 45 61-13-9-19-27-18-40-19 20-45 28-76 25z" fill="#17132e"/>
+    <path d="M173 120c-16 5-15 29 2 34M263 120c16 5 15 29-2 34" fill="none" stroke="#f2b88d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M194 130h15M229 130h15" stroke="#1e293b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M212 151c6 5 13 5 19 0" fill="none" stroke="#9f5e4b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M181 101c-8 6-15 19-14 33M254 98c9 7 15 20 14 34" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M166 132c-8 2-12 9-12 18v15c0 8 6 14 14 14h5v-47zM268 132c8 2 12 9 12 18v15c0 8-6 14-14 14h-5v-47z" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+
+    <!-- arms and controller -->
+    <path d="M169 218c-17 17-23 43-28 69M267 218c18 17 24 43 29 69" fill="none" stroke="#f2b88d" stroke-width="17" stroke-linecap="round"/>
+    <path d="M183 274c19-12 49-12 68 0l9 30c2 9-9 15-16 9l-12-10h-30l-12 10c-7 6-18 0-16-9z" fill="#111827" stroke="#94a3b8" stroke-width="3"/>
+    <path d="M194 289h16M202 281v16" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="239" cy="286" r="4" fill="#f472b6"/><circle cx="249" cy="295" r="4" fill="#818cf8"/>
+
+    <!-- desk -->
+    <rect x="40" y="300" width="520" height="22" rx="8" fill="#334155"/>
+    <rect x="65" y="321" width="22" height="55" rx="6" fill="#1e293b"/>
+    <rect x="515" y="321" width="22" height="55" rx="6" fill="#1e293b"/>
+
+  </g>
+
+  <!-- Floating product cards -->
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="800">
+    <g transform="translate(1070 92)">
+      <animateTransform attributeName="transform" type="translate" values="1070 92;1070 80;1070 92" dur="3.2s" repeatCount="indefinite"/>
+      <rect width="82" height="34" rx="10" fill="#0f172a" stroke="#38bdf8"/>
+      <text x="18" y="22" fill="#bae6fd">GAME</text>
+    </g>
+    <g transform="translate(1037 150)">
+      <animateTransform attributeName="transform" type="translate" values="1037 150;1050 150;1037 150" dur="4.1s" repeatCount="indefinite"/>
+      <rect width="92" height="34" rx="10" fill="#0f172a" stroke="#a78bfa"/>
+      <text x="20" y="22" fill="#ddd6fe">BUILD</text>
+    </g>
+    <g transform="translate(1086 214)">
+      <animateTransform attributeName="transform" type="translate" values="1086 214;1086 228;1086 214" dur="3.7s" repeatCount="indefinite"/>
+      <rect width="82" height="34" rx="10" fill="#0f172a" stroke="#f472b6"/>
+      <text x="20" y="22" fill="#fbcfe8">SHIP</text>
+    </g>
+  </g>
+
+  <rect x="1.5" y="1.5" width="1197" height="427" rx="26.5" fill="none" stroke="url(#neon)" stroke-opacity=".55" stroke-width="3"/>
+</svg>
