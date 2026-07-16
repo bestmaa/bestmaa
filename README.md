@@ -71,14 +71,47 @@ The goal is simple: **build the engine, build the tools, then build the worlds.*
 
 ## Working stack
 
+### Product & UI
+
 <p>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=38bdf8" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=facc15" />
   <img alt="React" src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61dafb" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=ffffff" />
+  <img alt="Payload CMS" src="https://img.shields.io/badge/Payload_CMS-111827?style=flat-square&logo=payloadcms&logoColor=ffffff" />
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=f97316" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css3&logoColor=38bdf8" />
+</p>
+
+### Backend & data
+
+<p>
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5fa04e" />
+  <img alt="REST APIs" src="https://img.shields.io/badge/REST_APIs-111827?style=flat-square&logoColor=ffffff" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=60a5fa" />
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite&logoColor=38bdf8" />
+</p>
+
+### Desktop, systems & delivery
+
+<p>
   <img alt="Rust" src="https://img.shields.io/badge/Rust-111827?style=flat-square&logo=rust&logoColor=f97316" />
+  <img alt="Tauri" src="https://img.shields.io/badge/Tauri-111827?style=flat-square&logo=tauri&logoColor=24c8db" />
   <img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=facc15" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ed" />
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=facc15" />
+  <img alt="Traefik" src="https://img.shields.io/badge/Traefik-111827?style=flat-square&logo=traefikproxy&logoColor=38bdf8" />
+  <img alt="Dokploy" src="https://img.shields.io/badge/Dokploy-111827?style=flat-square&logoColor=ffffff" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions&logoColor=60a5fa" />
+</p>
+
+### Games, graphics & creative tools
+
+<p>
+  <img alt="Canvas 2D" src="https://img.shields.io/badge/Canvas_2D-111827?style=flat-square&logoColor=ffffff" />
+  <img alt="WebGL2" src="https://img.shields.io/badge/WebGL2-111827?style=flat-square&logo=webgl&logoColor=f87171" />
   <img alt="Blender" src="https://img.shields.io/badge/Blender-111827?style=flat-square&logo=blender&logoColor=f97316" />
+  <img alt="2D and 3D" src="https://img.shields.io/badge/2D_%26_3D-111827?style=flat-square&logoColor=a78bfa" />
 </p>
 
 ## Build philosophy
