@@ -33,6 +33,16 @@
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3>
+        <a href="https://github.com/bestmaa/dbmason">DBMason</a>
+        · <a href="https://github.com/bestmaa/dbmason/releases/tag/v0.2.1">v0.2.1</a>
+      </h3>
+      <p>A self-hosted database access control plane built with Next.js and Payload CMS, with lightweight SQLite control-plane storage. Its isolated PostgreSQL and MySQL adapters power user, database, and grant management alongside a guarded SQL workspace.</p>
+      <p><code>TypeScript</code> <code>Payload CMS</code> <code>PostgreSQL</code> <code>MySQL</code> <code>SQLite</code> <code>Docker</code> <code>AGPL-3.0-only</code></p>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/bestmaa/raw2d">Raw2D</a></h3>
       <p>A low-level JavaScript and TypeScript 2D rendering engine with a transparent, modular pipeline.</p>
@@ -89,6 +99,7 @@ The goal is simple: **build the engine, build the tools, then build the worlds.*
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5fa04e" />
   <img alt="REST APIs" src="https://img.shields.io/badge/REST_APIs-111827?style=flat-square&logoColor=ffffff" />
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=60a5fa" />
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-111827?style=flat-square&logo=mysql&logoColor=38bdf8" />
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-111827?style=flat-square&logo=sqlite&logoColor=38bdf8" />
 </p>
 
