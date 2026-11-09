@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/gaming-builder.svg?v=2" width="100%" alt="Animated gaming developer workspace with a cartoon builder, code monitor, game controller, and floating 2D and 3D elements" />
+  <img src="./assets/builder-banner.svg" width="100%" alt="Animated gaming developer workspace with a cartoon builder, code monitor, game controller, and floating 2D and 3D elements" />
 </p>
 
 <p align="center">
