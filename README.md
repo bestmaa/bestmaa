@@ -2,8 +2,6 @@
   <img src="./assets/gaming-builder.svg" width="100%" alt="Animated gaming developer workspace with a cartoon builder, code monitor, game controller, and floating 2D and 3D elements" />
 </p>
 
-<h1 align="center">Hey, I'm Aditya Nandlal 👋</h1>
-
 <p align="center">
   <strong>Multi-product builder crafting developer tools, games, creative runtimes, and self-hosted systems.</strong>
 </p>
